@@ -3,7 +3,7 @@ read only            = no
 inherit permissions  = yes
 ; Add group write bit to default create mask, remove DOS archive bit (see below) #2039
 create mask          = 0664 
-inherit owner        = yes
+inherit owner        = no
 ; Use extended attribute to store DOS attributes (see man page)
 store dos attributes = yes  
 map archive          = no
