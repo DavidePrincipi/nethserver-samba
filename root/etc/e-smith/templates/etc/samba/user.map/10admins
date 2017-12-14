@@ -1,0 +1,4 @@
+;
+; 10admins
+;
+!root = "@{ $sssd{'Workgroup'} }\Domain Admins"

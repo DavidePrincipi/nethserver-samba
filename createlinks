@@ -29,6 +29,7 @@ use File::Path;
 #
 event_templates('nethserver-samba-update', qw(
     /etc/samba/smb.conf
+    /etc/samba/user.map
     /etc/hosts
 ));
 
