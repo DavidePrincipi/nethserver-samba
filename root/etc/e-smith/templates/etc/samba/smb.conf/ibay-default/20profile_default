@@ -12,3 +12,4 @@ inherit acls         = yes
 map acl inherit      = yes
 guest ok             = { ($ibay{SmbGuestAccessType} || 'none') =~ /^rw?$/ ? 'yes' : 'no' }
 browseable           = { ($ibay{SmbShareBrowseable} || 'enabled') eq 'enabled' ? 'yes' : 'no' }
+admin users          = "@domain admins"
