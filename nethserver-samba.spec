@@ -13,6 +13,7 @@ Requires: samba
 Requires: tdb-tools
 Requires: nethserver-ibays
 Obsoletes: sssd-libwbclient
+Requires: samba-winbind
 
 BuildRequires: nethserver-devtools
 
